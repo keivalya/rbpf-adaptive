@@ -73,11 +73,32 @@ To minimize particle depletion:
 - Dynamic obstacles and occlusions  
 
 ### **Results**  
-| Metric                 | Baseline RBPF SLAM | Proposed Method (Adaptive) |
-|------------------------|--------------------|---------------------------|
-| **Mapping Accuracy**   | Lower              | Higher                    |
-| **Particle Utilization** | Inefficient        | Optimized                 |
-| **Computational Cost** | High               | Reduced                   |
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Baseline RBPF SLAM</th>
+      <th>Proposed Method (Adaptive)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Mapping Accuracy</strong></td>
+      <td>Lower</td>
+      <td>Higher</td>
+    </tr>
+    <tr>
+      <td><strong>Particle Utilization</strong></td>
+      <td>Inefficient</td>
+      <td>Optimized</td>
+    </tr>
+    <tr>
+      <td><strong>Computational Cost</strong></td>
+      <td>High</td>
+      <td>Reduced</td>
+    </tr>
+  </tbody>
+</table>
 
 ### **Visual Comparison**
 
